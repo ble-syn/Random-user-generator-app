@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #F4CB6B;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 5%;
+}
+.menu {
+  margin: 0 20px;
+}
+
+.home-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#right{
+  margin-left: 20px;
+  background-color: aliceblue;
+}
+
+

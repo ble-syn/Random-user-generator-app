@@ -1,0 +1,10 @@
+body {
+  background-color: #F4CB6B;
+}
+
+.home-container{
+  display: flex;
+  height: 100vh;
+}
+
+

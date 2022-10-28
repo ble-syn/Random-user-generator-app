@@ -1,0 +1,24 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+function Navbar() {
+    return (
+      <nav className="header">
+        <div className="logo">
+          <Link to="/">Bee</Link>
+        </div>
+        
+
+        <div>
+            <Link to="/about" className="menu">Home</Link>
+       
+            <Link to="/contact" className="menu">About</Link>
+        </div>
+        <div>
+            <Link to="/">Contact Us</Link>
+        </div>
+      </nav>
+    );
+  }
+  
+export default Navbar;

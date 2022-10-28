@@ -1,0 +1,16 @@
+body {
+  background-color: #F4CB6B;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
