@@ -9,11 +9,9 @@ a {
   color: #000;
 }
 ul{
-  list-style: lower-roman;
-  margin: -15px 50px 0;
+  list-style: type;
+  padding-left: 50px;
 }
-
-
 body {
   background-color: #F4CB6B;
   font-family: "Poppins", sans-serif;

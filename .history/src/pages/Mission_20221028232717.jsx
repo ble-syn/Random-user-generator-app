@@ -14,7 +14,7 @@ function Mission() {
       <h2> Our Mission</h2>
       <div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Necessitatibus praesentium consequuntur velit harum impedit reiciendis
           reprehenderit itaque sed, modi, nostrum laboriosam at quos! Inventore
           officia incidunt minus, dolorum explicabo laudantium consequuntur

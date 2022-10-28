@@ -13,7 +13,7 @@ function Contact() {
       <div id="left">
         <Navbar />
         <h2>Contact Us</h2>
-        <p>Fill out this form to get in touch with us.</p>
+        <p>Fill out the form to get in touch with us.</p>
       </div>
       
       <div id="right">

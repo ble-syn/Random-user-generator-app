@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Pagination from "../components/pagination";
 import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from "../components/ErrorFallback";
-// import arrow from "../assets/arrow.png";
+import arrow from "../assets/arrow.png";
 
 
 
@@ -23,15 +23,15 @@ function About() {
           <Navbar />
           <h2>About Page</h2>
           <p>More About us here...</p>
-          <ul>
+          <div>
             <li>
-              <Link to="/about/mission">Our Mission</Link>
+              <Link to="/about/mission">Our Mission</Link><span><img src={arrow} alt="" /></span>
               
             </li>
-            <li>
-              <Link to="/about/vision">Our Vision</Link>
-            </li>
-          </ul>
+            <div>
+              <Link to="/about/vision">Our Vision<span><img src={arrow} alt="" /></span></Link>
+            </div>
+          </div>
         </div>
 
         <div id="right">

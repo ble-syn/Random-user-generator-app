@@ -4,8 +4,7 @@ import Navbar from "../components/Navbar";
 import Pagination from "../components/pagination";
 import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from "../components/ErrorFallback";
-// import arrow from "../assets/arrow.png";
-
+import aboutus from "../assets/about-us.png";
 
 
 function About() {
@@ -22,11 +21,12 @@ function About() {
         <div id="left">
           <Navbar />
           <h2>About Page</h2>
+          
+
           <p>More About us here...</p>
           <ul>
             <li>
               <Link to="/about/mission">Our Mission</Link>
-              
             </li>
             <li>
               <Link to="/about/vision">Our Vision</Link>
@@ -38,6 +38,7 @@ function About() {
           {location.pathname === "/about" ? (
             <div>
               <h2>About Us</h2>
+              <img src={aboutus} alt="" />
               <p>
                 RandomUser is an API providing developers with randomly generated users to be used as 
                 placeholders for testing purposes. This makes the tool similar to Lorem Ipsum, but is a placeholder for people 

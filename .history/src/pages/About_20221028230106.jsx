@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import Pagination from "../components/pagination";
 import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from "../components/ErrorFallback";
-// import arrow from "../assets/arrow.png";
 
 
 
