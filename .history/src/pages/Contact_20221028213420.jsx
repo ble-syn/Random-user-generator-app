@@ -11,7 +11,6 @@ function Contact() {
   return (
     <div className="home-container">
       <div id="left">
-        <Navbar />
         <h2>Contact Us</h2>
       </div>
       
