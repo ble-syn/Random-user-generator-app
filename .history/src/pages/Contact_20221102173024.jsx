@@ -7,12 +7,7 @@ function Contact() {
   const  goHome =(event) =>{
     event.preventDefault()
     navigate("/")
-  }
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("Thank you for your feedback!");
-  }
+}
   return (
     <div className="home-container">
       <div id="left">
@@ -23,7 +18,7 @@ function Contact() {
       
       <div id="right">
         <h2>Send us a message</h2>
-       <form onSubmit={handleSubmit}>
+       <form>
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name"  required/>
           <label htmlFor="email">Email</label>

@@ -35,7 +35,7 @@ function Home() {
   
  
   
-  const male = async () => {
+    const male = async () => {
     const res = await fetch("https://randomuser.me/api?results=20&gender=male");
     const data = await res.json();
     setUsers(data.results);

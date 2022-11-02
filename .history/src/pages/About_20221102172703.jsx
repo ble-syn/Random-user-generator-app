@@ -50,6 +50,7 @@ function About() {
               <div>
                 <h3>Error Boundary</h3>
               <ErrorBoundary FallbackComponent={ErrorFallback}>
+                
                 <Pagination />
               </ErrorBoundary>
               </div>
